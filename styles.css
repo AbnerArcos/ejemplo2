@@ -98,17 +98,25 @@ nav {
   margin: 5px 0;
 }
 
-.info p {
-  font-size: 13px;
-  color: #ccc;
+.info {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  padding-bottom: 60px; /* espacio para el precio */
 }
 
 .price {
   position: absolute;
-  right: 20px;
+  right: 20px;   /* 👉 ahora a la derecha */
   bottom: 20px;
-  color: #c9a96e;
-  font-weight: bold;
+
+  color: #d4af37;
+  font-weight: 600;
+  font-size: 18px;
+
+  background: rgba(0, 0, 0, 0.6);
+  padding: 6px 12px;
+  border-radius: 8px;
 }
 
 /* RESPONSIVE */
